@@ -30,7 +30,7 @@
 		<section class="section">
 			<div class="container">
         <h1 class="title">Simpson API</h1>
-        <button id="myBtn">Change</button>>
+        <button id="myBtn">Change</button>
 
 				<div class="content" id="simpson"></div>
 			</div>
@@ -59,6 +59,7 @@
           })
        } 
 	   fetchSimpsonJson();
+	   
 	   document.getElementById("myBtn").addEventListener("click", function(){
 		document.querySelector('#simpson').innerHTML = fetchSimpsonJson();
 	   });
